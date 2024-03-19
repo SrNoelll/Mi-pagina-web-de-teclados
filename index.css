@@ -1,0 +1,298 @@
+<style>
+  body {
+    height: 100%
+    width:100%;
+    margin: 0px;
+    background-color: black;
+    }
+
+    header {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        color: white;
+      }
+      nav {
+        align-items: center;
+        position: fixed;
+        display: flex;
+      }
+
+      header img {
+          height: 60px;
+      }
+
+      header a { 
+        text-decoration: none;
+        color: white;
+        margin-left: 5px;
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+      }
+    .vista1 {
+        left: 0;
+       right: 0;
+       background-image: url('images/Proyecto nuevo.jpg');
+        background-size: cover;
+        height: 100vh;
+         margin-top: 80px;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         color: black;
+         font-size: 7.5vh;
+         animation: fon 5s ease-in-out infinite;
+    }
+    @keyframes fon {
+      0% {
+        background-position: 0 0;
+      }
+
+      50% {
+        background-position: 100% 100%;
+      }
+      100% {
+        background-position: 0 0;
+      }
+    }
+    .cuadrado {
+            background-color: rgba(255, 255, 255, 0.9);
+            width: 100%; 
+            padding: 10px;
+            text-align: center;
+        }
+    .cuadrado h1 {
+        
+        height: 10vh;
+        left: 0;
+       right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+    }
+  
+  /**@keyframes colorr {
+    0% {
+      color: black;
+    }
+    50% {
+      color: gold;
+    }
+  }**/
+    .vista1 a {
+      text-decoration: none;
+      background-color: black;
+      border-radius: 5%;
+      height: 50px;
+      width: 300px;
+      font-size: 25px;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      color: white;
+      margin: 2%;
+      animation: pulse 1s ease-in-out infinite;
+    }
+@keyframes pulse {
+          0% {
+            transform: scale(1);
+          }
+          25% {
+            transform: scale(1.1);
+          }
+          100% {
+            transform: scale(1);
+          }
+        }
+    .negro {
+      background-color: black;
+      left: 0;
+      right: 0;
+    }
+
+    .negrop {
+      background-color: black;
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+ /* Estilos base */
+.regYjue {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/baner.gif');
+    background-size: auto; /* Cambio a mosaico */
+    background-repeat: repeat; /* Repetir la imagen en mosaico */
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #f0f0f0;
+}
+
+h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+h3 {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Cartas de productos */
+.seg {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    flex: 1;
+    padding: 1rem;
+    background-color: #ddd;
+    border-radius: 10px;
+    text-align: center;
+    flex-grow: 1;
+    flex-basis: 200;
+    margin-right: 20px;
+    margin-top: 20px;
+    box-shadow: 0 7px 11px rgba(0, 0, 0, 0.5);
+}
+
+.item img {
+    max-width: 300px;
+    height: 300px;
+
+}
+
+/* Enlaces */
+.regYjue a {
+    text-decoration: none;
+    color: #0074d9;
+    transition: color 0.3s;
+}
+
+.regYjue a:hover {
+    color: #0056b3;
+}
+
+.item2 {
+    flex: 1;
+    padding: 1rem;
+    background-color: #ddd;
+    border-radius: 10px;
+    text-align: justify;
+    min-width: 200px;
+    box-shadow: 0 7px 11px rgba(0, 0, 0, 0.5);
+  }
+    .somos {
+    background-image: url('images/fondo desenfocado.jpg');
+    font-family: Arial, sans-serif;
+    margin: -1;
+    padding: -1;
+    background-size: auto; /* Cambio a mosaico */
+    background-repeat: repeat; /* Repetir la imagen en mosaico */
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #f0f0f0;
+}
+
+p {
+    font-size: 1rem;
+    color: #333;
+}
+  /**Estilo de la pagina keys**/
+.vistak {
+      background-image: url('images/Proyecto nuevo.jpg');
+        background-size: cover;
+        height: 60vh;
+         margin-top: 80px;
+         margin-left: 0;
+         margin-right: 0;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         color: black;
+         font-size: 7.5vh;
+         background-filter: blur(10px);
+         background-attachment: fixed;
+         animation: fon 5s ease-in-out infinite;
+    }
+    @keyframes fon {
+      0% {
+        background-position: 0 0;
+      }
+
+      50% {
+        background-position: 100% 100%;
+      }
+      100% {
+        background-position: 0 0;
+      }
+    }
+
+    
+
+    .segk img {
+          max-width: 1000px;
+          height: 300px;
+    }
+    .itemk h3 {
+      margin: 2%;
+  }
+    .seleck a {
+      margin: 1%;
+      text-decoration: none;
+      color: black;
+    }
+    .seleck {
+      background-image: url('images/fondo desenfocado.jpg');
+        margin-left: -1%;
+        margin-right: -1%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 100;
+        background-size: cover;
+    }
+      .itemk{
+    background-color: rgba(128, 128, 128, 0.5);
+    height: 70vh;
+    width: 100vh;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      margin-top: 4%;
+      margin: 3%;
+      border-radius: 20px;
+    animation: pulsec 2s ease-in-out infinite;
+    }
+</style>
